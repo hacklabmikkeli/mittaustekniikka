@@ -31,7 +31,7 @@ Oskilloskooppi piirtää jännitteen muutokset näkyväksi kuvaputkelle. Sillä 
 
 **Funktiogeneraattori**
 
-Funktiogeneraattori ei mittaa mitään, vaan tuottaa signaalia halutulla taajuudella, amplitudilla sekä aaltomuodolla. Aaltomuotoja on yleensä pieni, rajattu joukko: siniaalto, kanttiaalto, sahalaita-aalto ja kanttiaalto, joita voi lisäksi vääristää (*skew*). Funktiogeneraattorin voi kytkeä testattavaan piiriin tuloon (*input*), jolloin lähdöstä (*output*), voidaan mitata esimerkiksi amplitudivaste ja vaihevaste tietyillä taajuuksilla käyttäen oskilloskooppia (tämä on melko vaivalloista). Funktiogeneraattoria voi myös lisäksi käyttää digitaalisen piirin kellosignaalina, jollon piirin toimintaa voi testata eri kellotaajuuksilla. Sitä voi myös käyttää esimerkiksi testisignaalilähteenä kaiuttimien ääniominaisuuksien mittaamiseen. Kaiken kaikkiaan funktiogeneraattori on monipuolinen apuväline analogisten piirien mittaamiseen ja testaamiseen. Funktiogeneraattorissa on BNC-liittimet signaalilähdölle.
+Funktiogeneraattori ei mittaa mitään, vaan tuottaa signaalia halutulla taajuudella, amplitudilla sekä aaltomuodolla. Aaltomuotoja on yleensä pieni, rajattu joukko: siniaalto, kanttiaalto, sahalaita-aalto ja kanttiaalto, joita voi lisäksi vääristää (*skew*). Funktiogeneraattorin voi kytkeä testattavaan piiriin tuloon (*input*), jolloin lähdöstä (*output*), voidaan mitata esimerkiksi amplitudivaste ja vaihevaste tietyillä taajuuksilla käyttäen oskilloskooppia (tämä on melko vaivalloista). Funktiogeneraattoria voi myös lisäksi käyttää digitaalisen piirin kellosignaalina, jollon piirin toimintaa voi testata eri kellotaajuuksilla. Sitä voi myös käyttää esimerkiksi testisignaalilähteenä kaiuttimien ääniominaisuuksien mittaamiseen. Kaiken kaikkiaan funktiogeneraattori on monipuolinen apuväline analogisten piirien mittaamiseen ja testaamiseen. Funktiogeneraattorissa on BNC-liittimet signaalilähdöille.
 
 ---
 
@@ -39,7 +39,7 @@ Funktiogeneraattori ei mittaa mitään, vaan tuottaa signaalia halutulla taajuud
 
 **Taajuuslaskuri**
 
-Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslaskurit (pulssilaskurit) osaavat myös laskea pulssien lukumääriä. Taajuutta voi myös mitata oskilloskoopilla, mutta jos oskilloskoopin kanavat loppuvat, tai jos pitää mitata hyvin erisuuruisia taajuuksia, voi taajuuslaskureista olla hyötyä. Taajuuslaskurit ovat myös tarkempia ja halvempia kuin vastaavan taajuusalueen oskilloskoopit.<
+Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslaskurit (pulssilaskurit) osaavat myös laskea pulssien lukumääriä. Taajuutta voi myös mitata oskilloskoopilla, mutta jos oskilloskoopin kanavat loppuvat, tai jos pitää mitata hyvin erisuuruisia taajuuksia, voi taajuuslaskureista olla hyötyä. Taajuuslaskurit ovat myös tarkempia ja halvempia kuin vastaavan taajuusalueen oskilloskoopit. Taajuuslaskurissa on yleensä BNC-liitin tulosignaalille.
 
 ---
 
@@ -47,9 +47,11 @@ Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslas
 
 **Spektrianalysaattori**
 
-Spektrianalysaattoreita käytetään eri signaalien (radiosignaali, videosignaali, äänisignaali, datasignaali) tarkasteluun taajuustasossa (oskilloskoopilla tarkastellaan signaaleja aikatasossa). Sillä voi mitata mm. tehoja, taajuuksia, säröä ja kohinaa, myös radiosignaaleista joita on vaikeaa tarkastella oskilloskoopilla. Spektrianalysaattori näyttää signaalin jännitteen taajuuden funktiona. 
+Spektrianalysaattoreita käytetään eri signaalien (radiosignaali, videosignaali, äänisignaali, datasignaali) tarkasteluun taajuustasossa, kun oskilloskoopilla tarkastellaan signaaleja aikatasossa. Sillä voi mitata mm. tehoja, taajuuksia, säröä ja kohinaa, myös radiosignaaleista joita on vaikeaa tarkastella oskilloskoopilla. Spektrianalysaattori näyttää signaalin jännitteen taajuuden funktiona. Joissain oskilloskoopeissa on FFT-toiminto, jolla voi myös tarkastella signaalia taajuustasossa, mutta varsinaisella spektrianalysaattorilla saadaan aikaan parempi erottelu sekä taajuusalue. Yleisin spektrianalysaattorityyppi, eli pyyhkäisyspektrianalysaattori, vaatii signaalin olevan jatkuvaa, joten transienttimittauksiin FFT sopii paremmin. Spektrianalysaattorissa on yleensä BNC-liitin tulosignaalille.
 
+---
 
+![Piirianalysaa
 
 *Alaviitteet*
 
