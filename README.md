@@ -10,7 +10,7 @@ Tällä kurssilla opimme mittaamaan elektroniikassa (ja sähköopissa) olennaisi
 
 **Yleismittari**
 
-Yleismittarilla voi nimensä mukaisesti mitata montaa suuretta: virtaa, jännitettä ja resistanssia. Nämä ovat kolme sähköopin perussuuretta. Monella yleismittarilla voi lisäksi mitata mm. kapasitanssia, transistorin vahvistuskerrointa ( $$ h_{fe} $$ ) ja lämpötilaa, mutta nämä lisäominaisuudet vaihtelevat yleismittarista toiseen. Yleismittariin voi liittää joko mittakoskettimet, tai muita laitteita, 4mm banaaniliittimillä.
+Yleismittarilla voi nimensä mukaisesti mitata montaa suuretta: virtaa, jännitettä ja resistanssia. Nämä ovat kolme sähköopin perussuuretta. Monella yleismittarilla voi lisäksi mitata mm. kapasitanssia, transistorin vahvistuskerrointa (h<sub>fe</sub>) ja lämpötilaa, mutta nämä lisäominaisuudet vaihtelevat yleismittarista toiseen. Yleismittariin voi liittää joko mittakoskettimet, tai muita laitteita, 4mm banaaniliittimillä.
 
 
 ---
@@ -23,7 +23,7 @@ Oskilloskooppi piirtää jännitteen muutokset näkyväksi kuvaputkelle. Sillä 
 
 ---
 
-
+![Funktiogeneraattori](kenwood.jpg)
 
 *Kuvien lähteet*
 
