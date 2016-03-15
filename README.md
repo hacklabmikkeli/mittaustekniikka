@@ -1,6 +1,10 @@
-# Mittaustekniikka kevät 2016
+## Kurssin sisältö ja tavoitteet
 
-Tällä kurssilla opimme mittaamaan elektroniikassa (ja sähköopissa) olennaisia suureita käyttäen erinäisiä mittalaitteita, sekä teoriaa kyseisten suureiden mittaamisen pohjalla. Huomaa, että käymme läpi vain pienen osan suureista ja mittaustavoista; esimerkiksi kompleksilukujen käyttöä vaihtovirtasuureiden mittauksessa ja mallinnuksessa ei käsitellä.
+Tällä kurssilla opimme mittaamaan elektroniikassa (ja sähköopissa) olennaisia suureita käyttäen erinäisiä mittalaitteita, sekä teoriaa kyseisten suureiden mittaamisen pohjalla. Huomaa, että käymme läpi vain pienen osan suureista ja mittaustavoista; esimerkiksi kompleksilukujen käyttöä vaihtovirtasuureiden mittauksessa ja mallinnuksessa ei käsitellä. Kurssin jälkeen osallistujan on tarkoitus osata mitata itsenäisesti kurssilla läpi käytyjä suureita.
+
+## Miksi mittaustekniikka?
+
+Mittaaminen on tylsää puuhaa, eikö<sup>1</sup>? Insinöörille mittalaitteet ovat kuitenkin silmien jatke &mdash; niillä sähköisen maailman ilmiöt saadaan näkyviksi ja havaittaviksi. Laitteiden rakentaminen ilman mittalaitteita on hankalaa, sillä tekemiään virheitä on vaikeaa (ellei mahdotonta) havaita, ja lopputuloksen näkee vasta, kun kytkee lopulliseen laitteen päälle. Sen sijaan mittalaitteilla voi testata joka ikisen komponentin ja moduulin, jollon voi luottavaisin mielin yhdistää ne kokonaisuudeksi.
 
 ---
 
@@ -38,6 +42,10 @@ Funktiogeneraattori ei mittaa mitään, vaan tuottaa signaalia halutulla taajuud
 Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslaskurit (pulssilaskurit) osaavat myös laskea pulssien lukumääriä. Taajuutta voi myös mitata oskilloskoopilla, mutta jos oskilloskoopin kanavat loppuvat, tai jos pitää mitata hyvin erisuuruisia taajuuksia, voi taajuuslaskureista olla hyötyä. Taajuuslaskurit ovat myös tarkempia ja halvempia kuin vastaavan taajuusalueen oskilloskoopit.<
 
 ---
+
+*Alaviitteet*
+
+1) ellei kuulu siihen omituiseen ihmisryhmään, jolle 100MHz Tektronix saa kuolan valumaan suupielistä
 
 *Kuvien lähteet*
 
