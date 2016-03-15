@@ -43,6 +43,14 @@ Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslas
 
 ---
 
+![Spektrianalysaattori](rs.jpg)
+
+**Spektrianalysaattori**
+
+Spektrianalysaattoreita käytetään eri signaalien (radiosignaali, videosignaali, äänisignaali, datasignaali) tarkasteluun taajuustasossa (oskilloskoopilla tarkastellaan signaaleja aikatasossa). Sillä voi mitata mm. tehoja, taajuuksia, säröä ja kohinaa, myös radiosignaaleista joita on vaikeaa tarkastella oskilloskoopilla. Spektrianalysaattori näyttää signaalin jännitteen taajuuden funktiona. 
+
+
+
 *Alaviitteet*
 
 1) ellei kuulu siihen omituiseen ihmisryhmään, jolle 100MHz Tektronix saa kuolan valumaan suupielistä
@@ -54,3 +62,5 @@ Yleismittari: [Binarysequence](https://en.wikipedia.org/wiki/Multimeter#/media/F
 Oskilloskooppi: [Elborgo](https://en.wikipedia.org/wiki/Oscilloscope#/media/File:Tektronix_465_Oscilloscope.jpg)
 
 Funktiogeneraattori: [QEDquid](https://en.wikipedia.org/wiki/Function_generator#/media/File:Kenwood_FG273_Function_Generator.jpg)
+
+Spektrianalysaattori: [Rohde & Schwartz](https://en.wikipedia.org/wiki/Spectrum_analyzer#/media/File:FSL.jpg)
