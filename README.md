@@ -35,7 +35,7 @@ Funktiogeneraattori ei mittaa mitään, vaan tuottaa signaalia halutulla taajuud
 
 **Taajuuslaskuri**
 
-Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslaskurit (pulssilaskurit) osaavat myös laskea pulssien lukumääriä. Taajuutta voi myös mitata oskilloskoopilla, mutta jos oskilloskoopin kanavat loppuvat, tai jos pitää mitata hyvin erisuuruisia taajuuksia, voi taajuuslaskureista olla hyötyä. Taajuuslaskurit ovat myös tarkempia ja halvempia kuin vastaavan taajuusalueen oskilloskoopit.
+Taajuuslaskuri mittaa nimensä mukaisesti signaalin taajuutta. Jotkin taajuuslaskurit (pulssilaskurit) osaavat myös laskea pulssien lukumääriä. Taajuutta voi myös mitata oskilloskoopilla, mutta jos oskilloskoopin kanavat loppuvat, tai jos pitää mitata hyvin erisuuruisia taajuuksia, voi taajuuslaskureista olla hyötyä. Taajuuslaskurit ovat myös tarkempia ja halvempia kuin vastaavan taajuusalueen oskilloskoopit.<
 
 ---
 
