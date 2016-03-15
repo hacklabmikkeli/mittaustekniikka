@@ -55,7 +55,7 @@ Spektrianalysaattoreita käytetään eri signaalien (radiosignaali, videosignaal
 
 **Vektoripiirianalysaattori**
 
-Lineaarisen kaksiporttipiirin käyttäytymisen voi kuvata yksiselitteisesti siirtofunktiolla, joka kuvaa piirin lähtösignaalin tulosignaalin funktiona. Vektoripiirianalysaattorilla siirtofunktion mittaaminen on helppoa: kytkee piirin lähdön ja tulon analysaattoriin ja käynnistää analyysin, jolloin siirtofunktio piirtyy amplitudi- ja vaihevastekäyrinä analysaattorin ruudulle. Näin piiriä on helppo verrata mm. teoreettiseen piiriin, ja sen käyttäytymistä laajemmissa kokonaisuuksissa voidaan ennustaa luotettavasti.
+Lineaarisen kaksiporttipiirin käyttäytymisen voi kuvata yksiselitteisesti siirtofunktiolla, joka kuvaa piirin lähtösignaalin tulosignaalin funktiona. Vektoripiirianalysaattori mittaa tämän siirtofunktion parametrit. Näin piiriä on helppo verrata mm. teoreettiseen piiriin, ja sen käyttäytymistä laajemmissa kokonaisuuksissa voidaan ennustaa luotettavasti.
 
 ---
 
