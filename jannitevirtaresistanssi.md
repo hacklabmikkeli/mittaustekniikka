@@ -1,3 +1,7 @@
 # Jännite, virta ja resistanssi
 
-**Käytetyt symbolit**
+![Käytetyt symbolit](symbolit.svg)
+
+*Käytetyt symbolit*
+
+
