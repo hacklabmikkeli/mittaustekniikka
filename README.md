@@ -51,7 +51,13 @@ Spektrianalysaattoreita käytetään eri signaalien (radiosignaali, videosignaal
 
 ---
 
-![Piirianalysaa
+![Piirianalysaattori](rs2.jpg)
+
+**Vektoripiirianalysaattori**
+
+Lineaarisen kaksiporttipiirin käyttäytymisen voi kuvata yksiselitteisesti siirtofunktiolla, joka kuvaa piirin lähtösignaalin tulosignaalin funktiona. Vektoripiirianalysaattorilla siirtofunktion mittaaminen on helppoa: kytkee piirin lähdön ja tulon analysaattoriin ja käynnistää analyysin, jolloin siirtofunktio piirtyy amplitudi- ja vaihevastekäyrinä analysaattorin ruudulle. Näin piiriä on helppo verrata mm. teoreettiseen piiriin, ja sen käyttäytymistä laajemmissa kokonaisuuksissa voidaan ennustaa luotettavasti.
+
+---
 
 *Alaviitteet*
 
@@ -66,3 +72,5 @@ Oskilloskooppi: [Elborgo](https://en.wikipedia.org/wiki/Oscilloscope#/media/File
 Funktiogeneraattori: [QEDquid](https://en.wikipedia.org/wiki/Function_generator#/media/File:Kenwood_FG273_Function_Generator.jpg)
 
 Spektrianalysaattori: [Rohde & Schwartz](https://en.wikipedia.org/wiki/Spectrum_analyzer#/media/File:FSL.jpg)
+
+Piirianalysaattori: [Rohde & Schwartz](https://en.wikipedia.org/wiki/Network_analyzer_%28electrical%29#/media/File:Netzwerkanalysator_ZVA40_RSD.jpg)
