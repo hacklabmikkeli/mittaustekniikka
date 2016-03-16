@@ -14,7 +14,7 @@ ja johtimilla pieni resistanssi. Nämä kolme suuretta ovat siis toisistaan
 riippuvaisia seuraavan yhtälön eli **Ohmin lain** mukaan:
 
 $$
-U \eq RI
+U = RI
 $$
 
 ![Tehtävä 1](urimittaus.svg)
