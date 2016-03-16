@@ -17,6 +17,50 @@ $$
 U = RI
 $$
 
+Yleismittarilla voi mitata kaikkia näistä kolmesta suureesta. Virtaa
+mitattaessa mittari kytketään **sarjaan** osaksi mitattavaa piiriä, ja
+jännitettä mitattaessa **rinnakkain** mitattavan piirin kanssa. Tämän vuoksi
+yleismittarissa on erilliset liitännät virta- ja jännitemittauksia varten.
+Virtaa mitattaessa yleismittarilla on pieni resistanssi, joten se käyttäytyy
+kuin oikosulku. Jännitettä mitattaessa resistanssi on suuri, joten mittari
+vaikuttaa piirin käytökseen kuin avoin piiri. Ole tarkkana virtamittauksien
+kanssa! Jos mittari kytketään väärin virtaa mitattaessa, mitattava piiri voi
+helposti tuhoutua ja yleismittarin sulake palaa. Jännitemittauksissa riski on
+yleensä pienempi. Resistanssimittauksen yhteydessä mitattavasta piiristä
+kannattaa kytkeä virta pois, jotta se ei pääse tuhoamaan mittaria tai
+vaikuttamaan mittaustulokseen.
+
+![Yleismittarin sijaiskytkentä](yleismittari.svg)
+
+*Yleismittarin sijaiskytkentä*
+
+Yleismittarin valintakiekolla valitaan sekä mittaustila että mittausalue. Jos
+mitattavan arvon suuruusluokkaa ei tiedä, kannattaa valita aluksi suurempi
+arvoalue, ja alkaa pienentää sitä, kunnes arvo näkyy mittarin ruudulla.
+Mittausalue ilmoitetaan yleensä metrisin etuliittein (m, k, M), jotka on
+lueteltu oheisessa taulukossa.
+
+| Mittaustila | Symboli |
+| ----------- | ------- |
+| Jännite     | V       |
+| Virta       | I       |
+| Resistanssi | &8486;  |
+
+*Yleismittarin tilat*
+
+
+| Etuliite    | Symboli    | Arvo                |
+| ----------- | ---------- | ------------------- |
+| piko        | p          | 0,000 000 000 000 1 |
+| nano        | n          | 0,000 000 000 1     |
+| mikro       | &micro;, u | 0,000 000 1         |
+| milli       | m          | 0,000 1             |
+| kilo        | k          | 1 000               |
+| mega        | M          | 1 000 000           |
+| giga        | G          | 1 000 000 000       |
+
+*Elektroniikassa käytetyt etuliitteet*
+
 ![Tehtävä 1](urimittaus.svg)
 
 *Tehtävä 1: täydennä taulukko mittaamalla ja laskemalla*
