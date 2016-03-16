@@ -39,8 +39,8 @@ vaikuttamaan mittaustulokseen.
 | Mittaustila | Symboli |
 | ----------- | ------- |
 | Jännite     | V       |
-| Virta       | I       |
-| Resistanssi | &#8486; |
+| Virta       | I       |
+| Resistanssi | &#8486; |
 
 *Yleismittarin tilat*
 
@@ -52,15 +52,24 @@ lueteltu oheisessa taulukossa.
 
 | Etuliite    | Symboli    | Arvo                |
 | ----------- | ---------- | ------------------- |
-| piko        | p          | 0,000 000 000 000 1 |
-| nano        | n          | 0,000 000 000 1     |
-| mikro       | &micro;, u | 0,000 000 1         |
+| piko        | p          | 0,000 000 000 000 1 |
+| nano        | n          | 0,000 000 000 1     |
+| mikro       | &micro;, u | 0,000 000 1         |
 | milli       | m          | 0,000 1             |
 | kilo        | k          | 1 000               |
 | mega        | M          | 1 000 000           |
 | giga        | G          | 1 000 000 000       |
 
 *Elektroniikassa käytetyt etuliitteet*
+
+Tehtävää 1 varten tarvitset yleismittarin lisäksi jännitelähteen/vakiovirtalähteen
+sekä vastuksia. Hacklabilla olevat laboratoriovirtalähteet toimivat
+sekä jännitelähteinä että vakiovirtalähteinä. Jos virtanupin (*current*)
+kääntää maksimiasentoonsa, voi jännitenupilla säätää jännitteen haluamakseen,
+jolloin lähde toimii jännitelähteenä. Jos taas jännitenupin (*voltage*) kääntää
+maksimiin, niin virtanupilla voi säätää virran, jolloin lähde toimii
+vakiovirtalähteenä. Huomaa, että virta tai jännite pysyy vakiona vain laitteen
+asettamissa rajoissa, esim. lähteen napojen ollessa auki jännite ei ole ääretön.
 
 ![Tehtävä 1](urimittaus.svg)
 
