@@ -75,3 +75,13 @@ asettamissa rajoissa, esim. lähteen napojen ollessa auki jännite ei ole ääre
 
 *Tehtävä 1: täydennä taulukko mittaamalla ja laskemalla*
 
+Arkielämässä ainoa suora kontaktimme sähkön kanssa on sähköisku, joten ihmiselle
+jännite, virta ja resistanssi eivät ole sinänsä merkityksellisiä asioita.
+Moni muu fysikaalinen suure sen sijaan on: äänenpaine, valo, lämpötila, kosteus,
+nopeus... Kaikki nämä voidaan muuttaa sähköisiksi signaaleiksi, jotka ovat *analogisia*
+alkuperäisen suureen kanssa &mdash; siitä nimitys *analogielektroniikka*.
+Kun suure on muutettu sähköiseksi signaaliksi, sitä on helppo tarkastella elektronisilla
+mittalaitteilla. Tehtävässä 2 rakennamme yksinkertaisen valosensorin, jolla voimme
+tarkastella valon voimakkuutta yleismittarilla.
+
+
