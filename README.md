@@ -8,8 +8,6 @@ käyttöä vaihtovirtasuureiden mittauksessa ja mallinnuksessa ei
 käsitellä. Kurssin jälkeen osallistujan on tarkoitus osata mitata
 itsenäisesti kurssilla läpi käytyjä suureita.
 
-
-
 ## Miksi mittaustekniikka?
 
 Mittaaminen on tylsää puuhaa, eikö<sup>1</sup>? Insinöörille
