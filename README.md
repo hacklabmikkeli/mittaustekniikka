@@ -10,7 +10,7 @@ itsenäisesti kurssilla läpi käytyjä suureita.
 
 ## Miksi mittaustekniikka?
 
-Mittaaminen on tylsää puuhaa, eikö<sup>1</sup>? Insinöörille
+Mittaaminen on tylsää puuhaa, eikö? Insinöörille
 mittalaitteet ovat kuitenkin silmien jatke &mdash; niillä sähköisen
 maailman ilmiöt saadaan näkyviksi ja havaittaviksi. Laitteiden
 rakentaminen ilman mittalaitteita on hankalaa, sillä tekemiään
@@ -124,11 +124,6 @@ mm. teoreettiseen piiriin, ja sen käyttäytymistä laajemmissa
 kokonaisuuksissa voidaan ennustaa luotettavasti.
 
 ---
-
-*Alaviitteet*
-
-1) ellei kuulu siihen omituiseen ihmisryhmään, jolle 100MHz Tektronix
-saa kuolan valumaan suupielistä
 
 *Kuvien lähteet*
 

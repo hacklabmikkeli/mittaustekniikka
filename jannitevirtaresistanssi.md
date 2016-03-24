@@ -62,26 +62,33 @@ lueteltu oheisessa taulukossa.
 
 *Elektroniikassa käytetyt etuliitteet*
 
-Tehtävää 1 varten tarvitset yleismittarin lisäksi jännitelähteen/vakiovirtalähteen
-sekä vastuksia. Hacklabilla olevat laboratoriovirtalähteet toimivat
-sekä jännitelähteinä että vakiovirtalähteinä. Jos virtanupin (*current*)
-kääntää maksimiasentoonsa, voi jännitenupilla säätää jännitteen haluamakseen,
-jolloin lähde toimii jännitelähteenä. Jos taas jännitenupin (*voltage*) kääntää
+Tehtävää 1 varten tarvitset yleismittarin lisäksi
+jännitelähteen/vakiovirtalähteen sekä vastuksia. Hacklabilla
+olevat laboratoriovirtalähteet toimivat sekä jännitelähteinä että
+vakiovirtalähteinä. Jos virtanupin (*current*) kääntää maksimiasentoonsa,
+voi jännitenupilla säätää jännitteen haluamakseen, jolloin lähde
+toimii jännitelähteenä. Jos taas jännitenupin (*voltage*) kääntää
 maksimiin, niin virtanupilla voi säätää virran, jolloin lähde toimii
-vakiovirtalähteenä. Huomaa, että virta tai jännite pysyy vakiona vain laitteen
-asettamissa rajoissa, esim. lähteen napojen ollessa auki jännite ei ole ääretön.
+vakiovirtalähteenä. Huomaa, että virta tai jännite pysyy vakiona vain
+laitteen asettamissa rajoissa, esim. lähteen napojen ollessa auki jännite
+ei ole ääretön.
 
 ![Tehtävä 1](urimittaus.svg)
 
 *Tehtävä 1: täydennä taulukko mittaamalla ja laskemalla*
 
-Arkielämässä ainoa suora kontaktimme sähkön kanssa on sähköisku, joten ihmiselle
-jännite, virta ja resistanssi eivät ole sinänsä merkityksellisiä asioita.
-Moni muu fysikaalinen suure sen sijaan on: äänenpaine, valo, lämpötila, kosteus,
-nopeus... Kaikki nämä voidaan muuttaa sähköisiksi signaaleiksi, jotka ovat *analogisia*
-alkuperäisen suureen kanssa &mdash; siitä nimitys *analogielektroniikka*.
-Kun suure on muutettu sähköiseksi signaaliksi, sitä on helppo tarkastella elektronisilla
-mittalaitteilla. Tehtävässä 2 rakennamme yksinkertaisen valosensorin, jolla voimme
-tarkastella valon voimakkuutta yleismittarilla.
+Arkielämässä ainoa suora kontaktimme sähkön kanssa on sähköisku,
+joten ihmiselle jännite, virta ja resistanssi eivät ole sinänsä
+merkityksellisiä asioita.  Moni muu fysikaalinen suure sen sijaan on:
+äänenpaine, valo, lämpötila, kosteus, nopeus... Kaikki nämä voidaan
+muuttaa sähköisiksi signaaleiksi, jotka ovat *analogisia* alkuperäisen
+suureen kanssa &mdash; siitä nimitys *analogielektroniikka*.  Kun suure
+on muutettu sähköiseksi signaaliksi, sitä on helppo tarkastella
+elektronisilla mittalaitteilla. Tehtävässä 2 rakennamme yksinkertaisen
+valosensorin, jolla voimme tarkastella valon voimakkuutta yleismittarilla.
 
+![Tehtävä 2](ldrmittaus.svg)
 
+*Tehtävä 2: rakenna oheinen piiri ja mittaa sillä erilaisia
+valonlähteitä. Sopivat arvot: E=5V, R1=1k&#8486;;. Merkitse tulokset
+taulukkoon. Pane piiri läpinäkymättömään rasiaan mittauksia varten.*
