@@ -1,4 +1,4 @@
-## Kurssin sisältö ja tavoitteet
+## Mittaustekniikka 2016
 
 Tällä kurssilla opimme mittaamaan elektroniikassa (ja sähköopissa)
 olennaisia suureita käyttäen erinäisiä mittalaitteita, sekä teoriaa

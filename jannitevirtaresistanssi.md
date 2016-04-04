@@ -29,12 +29,11 @@ vaikuttaa piirin käytökseen kuin avoin piiri.
 
 *Yleismittarin sijaiskytkentä*
 
-Ole tarkkana virtamittauksien
-kanssa! Jos mittari kytketään väärin virtaa mitattaessa, mitattava piiri voi
-helposti tuhoutua ja yleismittarin sulake palaa. Jännitemittauksissa riski on
-yleensä pienempi. Resistanssimittauksen yhteydessä mitattavasta piiristä
-kannattaa kytkeä virta pois, jotta se ei pääse tuhoamaan mittaria tai
-vaikuttamaan mittaustulokseen.
+Ole tarkkana virtamittauksien kanssa! Jos mittari kytketään väärin virtaa
+mitattaessa, mitattava piiri voi helposti tuhoutua ja yleismittarin sulake
+palaa. Jännitemittauksissa riski on yleensä pienempi. Resistanssimittauksen
+yhteydessä mitattavasta piiristä kannattaa kytkeä virta pois, jotta se ei
+pääse tuhoamaan mittaria tai vaikuttamaan mittaustulokseen.
 
 | Mittaustila | Symboli |
 | ----------- | ------- |
@@ -75,7 +74,7 @@ ei ole ääretön.
 
 ![Tehtävä 1](urimittaus.svg)
 
-*Tehtävä 1: täydennä taulukko mittaamalla ja laskemalla*
+**Tehtävä 1.1:** *täydennä taulukko mittaamalla ja laskemalla*
 
 Arkielämässä ainoa suora kontaktimme sähkön kanssa on sähköisku,
 joten ihmiselle jännite, virta ja resistanssi eivät ole sinänsä
@@ -89,6 +88,6 @@ valosensorin, jolla voimme tarkastella valon voimakkuutta yleismittarilla.
 
 ![Tehtävä 2](ldrmittaus.svg)
 
-*Tehtävä 2: rakenna oheinen piiri ja mittaa sillä erilaisia
+**Tehtävä 1.2:** *rakenna oheinen piiri ja mittaa sillä erilaisia
 valonlähteitä. Sopivat arvot: E=5V, R1=1k&#8486;;. Merkitse tulokset
 taulukkoon. Pane piiri läpinäkymättömään rasiaan mittauksia varten.*
