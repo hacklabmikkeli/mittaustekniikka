@@ -1,4 +1,4 @@
-## Mittaustekniikka 2016
+# Mittaustekniikka 2016
 
 Tällä kurssilla opimme mittaamaan elektroniikassa (ja sähköopissa)
 olennaisia suureita käyttäen erinäisiä mittalaitteita, sekä teoriaa
@@ -107,8 +107,7 @@ FFT-toiminto, jolla voi myös tarkastella signaalia taajuustasossa,
 mutta varsinaisella spektrianalysaattorilla saadaan aikaan parempi
 erottelu sekä taajuusalue. Yleisin spektrianalysaattorityyppi, eli
 pyyhkäisyspektrianalysaattori, vaatii signaalin olevan jatkuvaa, joten
-transienttimittauksiin FFT sopii paremmin. Spektrianalysaattorissa on
-yleensä BNC-liitin tulosignaalille.
+transienttimittauksiin FFT sopii paremmin.
 
 ---
 
@@ -121,7 +120,9 @@ yksiselitteisesti siirtofunktiolla, joka kuvaa piirin lähtösignaalin
 tulosignaalin funktiona. Vektoripiirianalysaattori mittaa tämän
 siirtofunktion parametrit. Näin piiriä on helppo verrata
 mm. teoreettiseen piiriin, ja sen käyttäytymistä laajemmissa
-kokonaisuuksissa voidaan ennustaa luotettavasti.
+kokonaisuuksissa voidaan ennustaa luotettavasti. Vektoripiirianalysaattorilla
+on helppo mitata mm. antennien SWR-arvoa, siirtojohtojen heijastus- ja
+vaimennusominaisuuksia sekä vahvistimien ja suodattimien taajuusvastetta.
 
 ---
 
