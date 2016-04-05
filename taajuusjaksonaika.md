@@ -60,12 +60,14 @@ tarvitse erikseen käsin asemoida.
 signaaligeneraattorin säätimiä ja näyttöä. Käytä aaltomuotona
 siniaaltoa (&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
 
-| Suure                                     | Englanniksi               | Yksikkö                   |
-| ----------------------------------------- | ------------------------- | ------------------------- |
-| Taajuus                                   | Frequency                 | Hertsi (*Hz*)             |
-| Jaksonaika <sup>4</sup>                   | Period                    | Sekunti (*s*)             |
-| Huipusta huippuun-amplitudi <sup>2<sup>   | Peak-to-peak amplitude    | Voltti (*V*) <sup>5</sup> |
-| Huippuamplitudi <sup>1<sup>               | Peak amplitude            | Voltti (*V*) <sup>5</sup> |
+![Kuva 2.5](aaltomuoto.svg)
+
+| Suure                             | Englanniksi           | Yksikkö       |
+| --------------------------------- | --------------------- | --------------|
+| Taajuus                           | Frequency             | Hertsi (*Hz*) |
+| Jaksonaika &#8308;                | Period                | Sekunti (*s*) |
+| Huipusta huippuun-amplitudi &sup2;| Peak-to-peak amplitude| Voltti (*V*) &#8309;|
+| Huippuamplitudi &sup1;            | Peak amplitude        | Voltti (*V*) &#8309;|
 
 > *1,2,4) katso kuva 2.5*                                                    
 > *5) jännitesignaalien tapauksessa*
