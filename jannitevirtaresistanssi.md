@@ -35,11 +35,11 @@ palaa. Jännitemittauksissa riski on yleensä pienempi. Resistanssimittauksen
 yhteydessä mitattavasta piiristä kannattaa kytkeä virta pois, jotta se ei
 pääse tuhoamaan mittaria tai vaikuttamaan mittaustulokseen.
 
-| Mittaustila | Symboli |
-| ----------- | ------- |
-| Jännite     | V       |
-| Virta       | I       |
-| Resistanssi | &#8486; |
+| Mittaustila | Englanniksi | Symboli   |
+| ----------- | ----------- | --------- |
+| Jännite     | Voltage     | V         |
+| Virta       | Current     | I         |
+| Resistanssi | Resistance  | &#8486;   |
 
 *Yleismittarin tilat*
 
@@ -61,6 +61,10 @@ lueteltu oheisessa taulukossa.
 
 *Elektroniikassa käytetyt etuliitteet*
 
+![Tehtävä 1](urimittaus.svg)
+
+**Tehtävä 1.1:** *täydennä taulukko mittaamalla ja laskemalla*
+
 Tehtävää 1 varten tarvitset yleismittarin lisäksi
 jännitelähteen/vakiovirtalähteen sekä vastuksia. Hacklabilla
 olevat laboratoriovirtalähteet toimivat sekä jännitelähteinä että
@@ -72,9 +76,11 @@ vakiovirtalähteenä. Huomaa, että virta tai jännite pysyy vakiona vain
 laitteen asettamissa rajoissa, esim. lähteen napojen ollessa auki jännite
 ei ole ääretön.
 
-![Tehtävä 1](urimittaus.svg)
+![Tehtävä 2](ldrmittaus.svg)
 
-**Tehtävä 1.1:** *täydennä taulukko mittaamalla ja laskemalla*
+**Tehtävä 1.2:** *rakenna oheinen piiri ja mittaa sillä erilaisia
+valonlähteitä. Sopivat arvot: E=5V, R1=1k&#8486;;. Merkitse tulokset
+taulukkoon. Pane piiri läpinäkymättömään rasiaan mittauksia varten.*
 
 Arkielämässä ainoa suora kontaktimme sähkön kanssa on sähköisku,
 joten ihmiselle jännite, virta ja resistanssi eivät ole sinänsä
@@ -85,9 +91,3 @@ suureen kanssa &mdash; siitä nimitys *analogielektroniikka*.  Kun suure
 on muutettu sähköiseksi signaaliksi, sitä on helppo tarkastella
 elektronisilla mittalaitteilla. Tehtävässä 2 rakennamme yksinkertaisen
 valosensorin, jolla voimme tarkastella valon voimakkuutta yleismittarilla.
-
-![Tehtävä 2](ldrmittaus.svg)
-
-**Tehtävä 1.2:** *rakenna oheinen piiri ja mittaa sillä erilaisia
-valonlähteitä. Sopivat arvot: E=5V, R1=1k&#8486;;. Merkitse tulokset
-taulukkoon. Pane piiri läpinäkymättömään rasiaan mittauksia varten.*
