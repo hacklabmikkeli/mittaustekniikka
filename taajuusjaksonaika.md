@@ -62,6 +62,8 @@ siniaaltoa (&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
 
 ![Kuva 2.5](aaltomuoto.svg)
 
+*Kuva 2.5. Suureet graafisesti kuvattuna*
+
 | Suure                             | Englanniksi           | Yksikkö       |
 | --------------------------------- | --------------------- | --------------|
 | Taajuus                           | Frequency             | Hertsi (*Hz*) |
