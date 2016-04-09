@@ -60,6 +60,27 @@ tarvitse erikseen käsin asemoida.
 signaaligeneraattorin säätimiä ja näyttöä. Käytä aaltomuotona
 siniaaltoa (&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
 
+**Taajuus** kuvaa signaalin jaksojen ajallista tiheyttä - suuritaajuuksisessa
+signaalissa on enemmän jaksoja samalla aikajaksolla kuin pienitaajuuksisessa
+signaalissa. Taajuuden yksikkö on hertsi (*Hz*), joka on sekunnin käänteisluku
+(*1/s*). Taajuuden symboli on yleensä *f*.
+
+**Jaksonaika** kuvaa signaalin yksittäisen jakson kestoa. Sen perusyksikkö on
+sekunti (*s*). Jaksonaika ja taajuus kuvaavat samaa asiaa, mutta ovat toistensa
+käänteislukuja - suuri jaksonaika tarkoittaa pientä taajuutta ja toisinpäin.
+Jaksonajan symboli on yleensä *t*, sama kuin ajan symboli.
+
+$$ t = {1 \over f} $$
+
+**Amplitudi** kuvaa värähtelyjen laajuutta, eli jännitesignaalin tapauksessa
+jännitteen vaihteluväliä. Amplitudisuureita on useita: *huipusta
+huippuun-amplitudi* on suurimman ja pienimmän jännitearvon välinen erotus, ja
+sitä käytämme eniten tällä kurssilla. Muut suureet ovat *huippuamplitudi*, joka
+on jännitteen suurin arvo, sekä *tehollinen amplitudi*, joka kuvaa signaalin
+välittämän tehon määrää. Jännitesignaalin tapauksessa amplitudisuureiden yksikkö
+on voltti (*V*). Huipusta-huippuun amplitudin symboli on jännitesignaalien
+tapauksessa yleensä $$ V_{p-p} $$ ja huippuamplitudin symboli $$ V_{peak} $$ .
+
 ![Kuva 2.5](aaltomuoto.svg)
 
 *Kuva 2.5. Suureet graafisesti kuvattuna*
@@ -76,4 +97,35 @@ siniaaltoa (&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
 
 *Taulukko 2.1. Muutamia suureita*
 
+**Amplitudin, taajuuden ja jaksonajan mittaaminen oskilloskoopilla.** Ko.
+suureiden mittaamiseen oskilloskoopilla tarvitaan sekä oskilloskoopin ruudulla
+näkyvä kuva että *TIME/DIV* ja *VOLTS/DIV* asetukset. Mittaus tapahtuu
+seuraavasti (*kuva 2.6*):
 
+1. Säädä oskilloskooppi siten, että vähintään yksi jakso näkyy selvästi
+   kokonaisuudessaan ruudulla.
+2. Laske **vaakasuuntaisten** viivavälien (*DIV*) lukumäärä kahden samassa
+   kohdassa jaksoa olevan pisteen välissä. Pisteinä voivat olla esimerkiksi
+   huiput tai jakson alkukohdat. Huomaa, että viivavälien määrän ei tarvitse
+   olla kokonaisluku - esimerkiksi 3,3 viivaväliä on täysin järkevä arvo.
+3. Kerro tämä luku oskilloskoopin *TIME/DIV* arvolla, jolloin saat jaksonajan.
+4. Laske jaksonajan käänteisluku **yksiköt huomioiden**. Näin saat taajuuden.
+5. Laske **pystysuuntaisten** viivavälien lukumäärä signaalin korkeimman ja
+   matalimman kohdan välillä.
+6. Kerro tämä luku oskilloskoopin *VOLTS/DIV* arvolla. Näin saat huipusta
+   huippuun-amplitudin.
+
+![Kuva 2.6](skooppimittaus.svg)
+
+*Kuva 2.6. Suureiden mittaaminen oskilloskoopilla*
+
+**Tehtävä 2.3:** opettaja säätää funktiogeneraattorien asetukset ja peittää
+generaattorit paperilapulla. Mittaa signaaleista amplitudi, taajuus ja
+jaksonaika.
+
+| Amplitudi | Jaksonaika | Taajuus |
+| --------- | ---------- | ------- |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
