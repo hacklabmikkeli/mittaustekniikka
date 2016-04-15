@@ -19,13 +19,10 @@ kanavaan 1. Yritä saada signaali näkymään ruudulla.*
 Tehtävää 2.1 varten oskilloskoopin liipaisu (*trigger*) sekä amplitudi-
 ja taajuusalueet tulee säätää kohdilleen. Aloita kääntämällä
 liipaisutasonuppia (*kuva 2.2*) edestakaisin, kunnes signaali on näkyvissä ja
-paikallaan. Jos et saa analogisella oskilloskoopilla signaalia näkyviin,
-voit käyttää LINE-lähdettä liipaisulle, käydä seuraavat kohdat
-läpi ja säätää liipaisun lopuksi kohdalleen.  LINE-lähde käyttää
-sähköverkon 50Hz vaihtovirtaa liipaisuun, joten sitä käyttäen signaali ei
-pysy paikallaan. **HUOM:** varmista, että oskilloskoopissa on valittuna oikea
+paikallaan. **HUOM:** varmista, että oskilloskoopissa on valittuna oikea
 kanava (*ks. kuva 2.4*), ja että sama kanava on myös liipaisulähteenä
-(*source*).
+(*source*). Lisäksi kannattaa panna triggeröinti auto-tilaan, jolloin signaali
+on näkyvissä vaikka liipaisua ei tapahtuisi.
 
 ![Kuva 2.3](scope4.jpg)
 
