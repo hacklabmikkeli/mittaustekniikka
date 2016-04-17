@@ -52,10 +52,14 @@ tässä tehtävässä käytämme kanavaa A. DC-erotus &ndash;säätimellä
 voidaan suodattaa tasavirtakomponentti pois signaalista, jolloin signaalia ei
 tarvitse erikseen käsin asemoida.
 
-**Tehtävä 2.2:** *Aseta funktiogeneraattorin taajuudeksi
+![Kuva 2.5](funktiogeneraattori.svg)
+
+*Kuva 2.5. Funktiogeneraattori*
+
+**Tehtävä 2.2:** *Aseta funktiogeneraattorin (kuva 2.5) taajuudeksi
 (frequency) 1MHz ja peak-to-peak amplitudiksi (amplitude) 1V käyttäen
-signaaligeneraattorin säätimiä ja näyttöä. Käytä aaltomuotona
-siniaaltoa (&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
+generaattorin säätimiä ja näyttöä. Käytä aaltomuotona siniaaltoa
+(&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
 
 **Taajuus** kuvaa signaalin jaksojen ajallista tiheyttä - suuritaajuuksisessa
 signaalissa on enemmän jaksoja samalla aikajaksolla kuin pienitaajuuksisessa
@@ -64,10 +68,8 @@ signaalissa. Taajuuden yksikkö on hertsi (*Hz*), joka on sekunnin käänteisluk
 
 **Jaksonaika** kuvaa signaalin yksittäisen jakson kestoa. Sen perusyksikkö on
 sekunti (*s*). Jaksonaika ja taajuus kuvaavat samaa asiaa, mutta ovat toistensa
-käänteislukuja - suuri jaksonaika tarkoittaa pientä taajuutta ja toisinpäin.
-Jaksonajan symboli on yleensä *t*, sama kuin ajan symboli.
-
-$$ t = {1 \over f} $$
+käänteislukuja - suuri jaksonaika tarkoittaa pientä taajuutta ja toisinpäin
+(*t = 1/f*). Jaksonajan symboli on yleensä *t*, sama kuin ajan symboli.
 
 **Amplitudi** kuvaa värähtelyjen laajuutta, eli jännitesignaalin tapauksessa
 jännitteen vaihteluväliä. Amplitudisuureita on useita: *huipusta
@@ -76,11 +78,12 @@ sitä käytämme eniten tällä kurssilla. Muut suureet ovat *huippuamplitudi*, 
 on jännitteen suurin arvo, sekä *tehollinen amplitudi*, joka kuvaa signaalin
 välittämän tehon määrää. Jännitesignaalin tapauksessa amplitudisuureiden yksikkö
 on voltti (*V*). Huipusta-huippuun amplitudin symboli on jännitesignaalien
-tapauksessa yleensä $$ V_{p-p} $$ ja huippuamplitudin symboli $$ V_{peak} $$ .
+tapauksessa yleensä *V&#8346;&#8331;&#8346;* ja huippuamplitudin symboli
+*V&#8346;*.
 
-![Kuva 2.5](aaltomuoto.svg)
+![Kuva 2.6](aaltomuoto.svg)
 
-*Kuva 2.5. Suureet graafisesti kuvattuna*
+*Kuva 2.6. Suureet graafisesti kuvattuna*
 
 | Suure                             | Englanniksi           | Yksikkö       |
 | --------------------------------- | --------------------- | --------------|
@@ -89,7 +92,7 @@ tapauksessa yleensä $$ V_{p-p} $$ ja huippuamplitudin symboli $$ V_{peak} $$ .
 | Huipusta huippuun-amplitudi &sup2;| Peak-to-peak amplitude| Voltti (*V*) &#8309;|
 | Huippuamplitudi &sup1;            | Peak amplitude        | Voltti (*V*) &#8309;|
 
-> *1,2,4) katso kuva 2.5*                                                    
+> *1,2,4) katso kuva 2.6*                                                    
 > *5) jännitesignaalien tapauksessa*
 
 *Taulukko 2.1. Muutamia suureita*
@@ -97,7 +100,7 @@ tapauksessa yleensä $$ V_{p-p} $$ ja huippuamplitudin symboli $$ V_{peak} $$ .
 **Amplitudin, taajuuden ja jaksonajan mittaaminen oskilloskoopilla.** Ko.
 suureiden mittaamiseen oskilloskoopilla tarvitaan sekä oskilloskoopin ruudulla
 näkyvä kuva että *TIME/DIV* ja *VOLTS/DIV* asetukset. Mittaus tapahtuu
-seuraavasti (*kuva 2.6*):
+seuraavasti (*kuva 2.7*):
 
 1. Säädä oskilloskooppi siten, että vähintään yksi jakso näkyy selvästi
    kokonaisuudessaan ruudulla.
@@ -112,9 +115,11 @@ seuraavasti (*kuva 2.6*):
 6. Kerro tämä luku oskilloskoopin *VOLTS/DIV* arvolla. Näin saat huipusta
    huippuun-amplitudin.
 
-![Kuva 2.6](skooppimittaus.svg)
+![Kuva 2.7](skooppimittaus.svg)
 
-*Kuva 2.6. Suureiden mittaaminen oskilloskoopilla*
+*Kuva 2.7. Suureiden mittaaminen oskilloskoopilla*
+
+<p style="page-break-after:always;"></p>
 
 **Tehtävä 2.3:** opettaja säätää funktiogeneraattorien asetukset ja peittää
 generaattorit paperilapulla. Mittaa signaaleista amplitudi, taajuus ja
@@ -122,7 +127,32 @@ jaksonaika.
 
 | Amplitudi | Jaksonaika | Taajuus |
 | --------- | ---------- | ------- |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| &nbsp;    | &nbsp;     | &nbsp;  |
+| &nbsp;    | &nbsp;     | &nbsp;  |
+| &nbsp;    | &nbsp;     | &nbsp;  |
+
+**Tehtävä 2.4:** kytke *Mystinen Signaalilähde&trade;* oskilloskooppiin ja
+tulkitse sen tuottamat signaalit. Käytä oskilloskoopin DC-asentoa.  Signaalia voi
+vaihtaa nappia painamalla.  Käytä apuna kuvaa 2.8.
+
+<table>
+<thead>
+<tr><th style="width: 10%;">Morse/binääri</th><th>Tulkinta</th></tr>
+</thead>
+<tbody>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</tbody>
+</table>
+
+Jos signaalin saa näkymään ruudulle, voi sen sisällöstä tulkita monia seikkoja
+myös kvalitatiivisesti &mdash; aaltomuodon, mahdollisen modulaatiotavan (AM/FM),
+digitaalisen signaalin koodauksen (Manchester, 8b/10b, jne..), ja lukemattomia
+muita ominaisuuksia. Tehtävässä 2.4 tarkastellaan signaaleja oskilloskoopilla
+ja tulkitaan niiden sisältöä.
+
+![Kuva 2.8](morse.svg)
+
+*Kuva 2.8. Morseaakkoset ja binääriluvut*
