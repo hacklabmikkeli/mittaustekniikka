@@ -9,8 +9,8 @@ signaali muuttuu satoja, tuhansia tai miljoonia kertoja sekunnissa, tarvitaan
 *oskilloskooppia*. Oskilloskoopilla voidaan piirtää jännitteen vaihtelu ajan
 suhteen ruudulle (*kuva 2.1*). Aloittakaamme tutustumalla oskilloskooppiin.
 
-**Tehtävä 2.1:** *Kytke funktiogeneraattorin MAIN OUT oskilloskoopin
-kanavaan 1. Yritä saada signaali näkymään ruudulla.*
+**Tehtävä 2.1:** Kytke funktiogeneraattorin MAIN OUT oskilloskoopin
+kanavaan 1. Yritä saada signaali näkymään ruudulla.
 
 ![Kuva 2.2](scope3.jpg)
 
@@ -56,10 +56,10 @@ tarvitse erikseen käsin asemoida.
 
 *Kuva 2.5. Funktiogeneraattori*
 
-**Tehtävä 2.2:** *Aseta funktiogeneraattorin (kuva 2.5) taajuudeksi
+**Tehtävä 2.2:** Aseta funktiogeneraattorin (kuva 2.5) taajuudeksi
 (frequency) 1MHz ja peak-to-peak amplitudiksi (amplitude) 1V käyttäen
 generaattorin säätimiä ja näyttöä. Käytä aaltomuotona siniaaltoa
-(&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.*
+(&#8767;). Tarkista arvot mittaamalla ne oskilloskoopilla.
 
 **Taajuus** kuvaa signaalin jaksojen ajallista tiheyttä - suuritaajuuksisessa
 signaalissa on enemmän jaksoja samalla aikajaksolla kuin pienitaajuuksisessa
